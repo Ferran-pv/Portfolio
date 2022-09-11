@@ -1,0 +1,13 @@
+ipykernel==6.15.1
+numpy==1.19.5
+pandas==1.2.0
+plotly-express==0.4.0
+matplotlib-inline==0.1.5
+scikit-learn==0.24.0
+importlib==1.0.4
+tensorflow==2.4.0
+seedir==0.3.1
+matplotlib==3.5.3
+jupyterlab==3.4.5
+ipykernel==6.15.1
+pyramid-arima==0.8.1

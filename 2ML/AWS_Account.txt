@@ -1,0 +1,23 @@
+#### requirements
+node --version #! "node":">= 14.15.0" -> nvm install v18.9.0
+npm --version
+pip install boto3
+#
+AWS account: ferranpauls10@gmail.com | pauls666 -> root user psswd: @Pauls666
+    https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#
+# 
+    [Search: AWS CLI configure]
+install AWS CLI
+    aws configure
+        Anar a link anterior -> Ferran -> Security credentials -> Access keys (access key ID and secret access key) -> Create new acces key
+    Access Key ID: AKIAZIIHXEZPALOGS3GU
+    Secret Access Key: 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
+    Default region name: eu-west-2	
+    Default output format: json
+#
+sudo npm install -g aws-cdk
+cdk bootstrap aws://636208227934/eu-west-2 # provision initial resources.
+
+
+
+

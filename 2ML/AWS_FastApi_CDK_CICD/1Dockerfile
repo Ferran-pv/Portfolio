@@ -1,0 +1,10 @@
+FROM python:3.8-slim as base
+
+FROM base
+COPY . /app
+WORKDIR app
+RUN pip install -r 0requirements.txt
+
+ENTRYPOINT ["python", "01app/main.py"] # program - command
+
+
